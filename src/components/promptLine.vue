@@ -3,7 +3,7 @@
 </template>
 <script>
 import { mapGetters } from "vuex"
-import posLine from './posLine'
+import promptLine from './promptLine'
 import _ from 'lodash'
 export default{
     computed:{
@@ -15,8 +15,8 @@ export default{
         allElementsOption : {
             deep:true,
             handler(e){
-                if (window.PosLine) {
-                    window.PosLine.upDate(e['selectId'], 'ylf-element')
+                if (window.promptLine) {
+                    window.promptLine.upDate(e['selectId'], 'ylf-element')
                 }
             }
         }

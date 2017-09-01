@@ -12,7 +12,7 @@ function uniq(arr) {
     }
     return res;
 }
-export default class posLine {
+export default class promptLine {
     constructor() {
         this.speed = 5
         this.elementPos = {

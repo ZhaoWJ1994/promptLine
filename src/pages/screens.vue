@@ -13,7 +13,7 @@
 </template>
 <script>
 import elementBox from "components/element.js"
-import lineContainer from "components/autoPosLine.vue"
+import lineContainer from "components/promptLine.vue"
 import { mapGetters } from "vuex"
 export default{
     data(){
@@ -28,8 +28,8 @@ export default{
     },
     methods: {
         clearPosLine() {
-            if (window.PosLine) {
-                window.PosLine.destroyLine()
+            if (window.promptLine) {
+                window.promptLine.destroyLine()
             }
         }
     },

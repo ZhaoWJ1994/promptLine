@@ -1,4 +1,4 @@
-# autoPosLine
+# promptLine
 
 > 网格系统中的智能引导线以及拖拽吸附功能
 
@@ -11,7 +11,7 @@
 - [墨刀编辑器](https://modao.cc)
 - [易企秀](http://www.eqxiu.com/)
 
-![image](./posLine.gif)
+![image](./promptLine.gif)
 
 ## Development
 
